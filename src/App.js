@@ -3,13 +3,14 @@ import Container from "react-bootstrap/Container"
 import Navigation from "./components/Navigation"
 import Home from "./pages/Home"
 import About from "./pages/About"
-import Products from "./pages/Products"
+import Resume from "./pages/Resume"
 import User from "./pages/User"
-import Login from "./pages/Login"
+import ContactForm from "./pages/Contact"
 import Projects from "./pages/Projects"
 import Test from "./pages/Test"
 
 import "bootstrap/dist/css/bootstrap.min.css"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -21,8 +22,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/products" element={<Products />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<ContactForm />} />
             <Route path="/projects" element={<Projects /> } />
             <Route path="/test" element={<Test /> } />
             <Route path="/user">
@@ -33,7 +34,11 @@ function App() {
           </Routes>
         </Router>
       </Container>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
+   
   );
 }
 

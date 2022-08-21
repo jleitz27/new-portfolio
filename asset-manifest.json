@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/new-portfolio/static/css/main.1f5e2aa0.css",
+    "main.js": "/new-portfolio/static/js/main.1e5bf054.js",
+    "static/js/787.8d4efb73.chunk.js": "/new-portfolio/static/js/787.8d4efb73.chunk.js",
+    "static/media/background1.jpg": "/new-portfolio/static/media/background1.5219c4b30387681724e9.jpg",
+    "static/media/me1.png": "/new-portfolio/static/media/me1.2d50df7af4f94f69a0a4.png",
+    "static/media/Jason_Leitz-Resume.pdf": "/new-portfolio/static/media/Jason_Leitz-Resume.b1f2180cb799be768d9a.pdf",
+    "index.html": "/new-portfolio/index.html",
+    "main.1f5e2aa0.css.map": "/new-portfolio/static/css/main.1f5e2aa0.css.map",
+    "main.1e5bf054.js.map": "/new-portfolio/static/js/main.1e5bf054.js.map",
+    "787.8d4efb73.chunk.js.map": "/new-portfolio/static/js/787.8d4efb73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f5e2aa0.css",
+    "static/js/main.1e5bf054.js"
+  ]
+}

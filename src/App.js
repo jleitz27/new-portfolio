@@ -11,11 +11,12 @@ import Test from "./pages/Test"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import Footer from "./components/Footer"
+import './App.css'
 
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navigation />
       <Container style={{ paddingTop: "20px" }}>
         <Router>
@@ -25,12 +26,7 @@ function App() {
             <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<ContactForm />} />
             <Route path="/projects" element={<Projects /> } />
-            <Route path="/test" element={<Test /> } />
-            <Route path="/user">
-              <Route path=":id" element={<User />} />
-              
-              
-            </Route>
+  
           </Routes>
         </Router>
       </Container>

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 import { validateEmail } from '../utils/helpers';
 
@@ -39,25 +41,34 @@ function ContactForm() {
   return (
     <section>
       <h1 data-testid="h1tag">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
+      <form id="contact-form" >
+        <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label>Name</Form.Label>
+          <Form.Control type="text" placeholder="Name"  name="name" defaultValue={name} onBlur={handleChange} />
+        </Form.Group>
+        
+       
+        <Form.Group className="mb-3" htmlFor="email">
+          <Form.Label>Email address</Form.Label>
+          <Form.Control type="email" placeholder="Enter email" name="email" defaultValue={email} onBlur={handleChange}  />
+        
+        </Form.Group>
+        <Form.Group className="mb-3" htmlFor="message">
+          <Form.Label>Message</Form.Label>
+          <Form.Control name="message" placeholder="Message" rows="5" defaultValue={message} onBlur={handleChange}  />
+        </Form.Group>
+        <Button data-testid="button"   variant="secondary" type="submit" onSubmit={handleSubmit} >
+          Submit
+        </Button>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+
+    
+    
+        
       </form>
     </section>
   );

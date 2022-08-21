@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  color: #015F71;
+  font-size: 23px;
+  
+}
+
+body {
+  background-image:url(./assets/images/background1.jpg);
+  background-size: cover;
 }
 
 .App-logo {
@@ -7,6 +15,11 @@
   pointer-events: none;
 }
 
+.my-name{
+  color:#015F71;
+  font-size: 30px;
+  -webkit-text-stroke: 1px black;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Me from '../assets/images/me.png'
+import Me from '../assets/images/me1.png'
 
 const AboutPage = (props) => {
 

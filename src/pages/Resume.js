@@ -1,6 +1,7 @@
 import React from 'react'; 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import resumePdf from '../assets/images/Jason_Leitz-Resume.pdf'
 
 function Resume() {
     return(
@@ -11,6 +12,11 @@ function Resume() {
                 <Col lg={8} md={12}>
                     Full Stack Web Developer who possesses technical skills within the MERN stack.
                 </Col>
+            </Row>
+            <Row>
+            <Col lg={3} md={12}>
+            <a href={resumePdf} download><img src="https://img.icons8.com/color/96/000000/pdf-2--v1.png" alt="resume" /></a><p class="icon-text">Resume</p>
+            </Col>
             </Row>
         </div>
 

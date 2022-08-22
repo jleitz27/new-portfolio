@@ -64,7 +64,7 @@
     https://github.com/jleitz27/new-portfolio 
 
   ## Link to deployed page 
-  https://jleitz27.github.io/new-portfolio/
+  https://salty-ravine-71300.herokuapp.com/ 
 
 <p align="center">
   <img src="./src/assets/images/screenshot.png" width="350"

@@ -21,9 +21,9 @@ function App() {
       <Container style={{ paddingTop: "20px" }}>
         <Router>
           <Routes>
-            <Route path="/new-portfolio" element={<About />} />
+            <Route path="/" element={<About />} />
             <Route path="/new-portfolio/about" element={<About />} />
-            <Route path="/new-portfolio/resume" element={<Resume />} />
+            <Route path="/new-portfolio/#/resume" element={<Resume />} />
             <Route path="/new-portfolio/contact" element={<ContactForm />} />
             <Route path="/new-portfolio/projects" element={<Projects /> } />
   

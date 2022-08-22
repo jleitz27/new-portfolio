@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/new-portfolio/static/css/main.1f5e2aa0.css",
-    "main.js": "/new-portfolio/static/js/main.1e5bf054.js",
+    "main.js": "/new-portfolio/static/js/main.62f8cde7.js",
     "static/js/787.8d4efb73.chunk.js": "/new-portfolio/static/js/787.8d4efb73.chunk.js",
     "static/media/background1.jpg": "/new-portfolio/static/media/background1.5219c4b30387681724e9.jpg",
+    "static/media/beer.png": "/new-portfolio/static/media/beer.440c3a007ec42b868b61.png",
+    "static/media/weather.png": "/new-portfolio/static/media/weather.39c3ed2cbd899b379c2f.png",
+    "static/media/tipsy.png": "/new-portfolio/static/media/tipsy.6db5eed777ef76558ede.png",
     "static/media/me1.png": "/new-portfolio/static/media/me1.2d50df7af4f94f69a0a4.png",
+    "static/media/note.png": "/new-portfolio/static/media/note.9c468b4ea12e312c28fe.png",
+    "static/media/budget.png": "/new-portfolio/static/media/budget.4dddeacede075e202e55.png",
     "static/media/Jason_Leitz-Resume.pdf": "/new-portfolio/static/media/Jason_Leitz-Resume.b1f2180cb799be768d9a.pdf",
+    "static/media/blog.png": "/new-portfolio/static/media/blog.d81562b39916b4b873dc.png",
     "index.html": "/new-portfolio/index.html",
     "main.1f5e2aa0.css.map": "/new-portfolio/static/css/main.1f5e2aa0.css.map",
-    "main.1e5bf054.js.map": "/new-portfolio/static/js/main.1e5bf054.js.map",
+    "main.62f8cde7.js.map": "/new-portfolio/static/js/main.62f8cde7.js.map",
     "787.8d4efb73.chunk.js.map": "/new-portfolio/static/js/787.8d4efb73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f5e2aa0.css",
-    "static/js/main.1e5bf054.js"
+    "static/js/main.62f8cde7.js"
   ]
 }

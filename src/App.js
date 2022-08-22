@@ -23,7 +23,7 @@ function App() {
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/new-portfolio/about" element={<About />} />
-            <Route path="/new-portfolio/#/resume" element={<Resume />} />
+            <Route path="/new-portfolio/resume" element={<Resume />} />
             <Route path="/new-portfolio/contact" element={<ContactForm />} />
             <Route path="/new-portfolio/projects" element={<Projects /> } />
   

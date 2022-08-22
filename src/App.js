@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Container from "react-bootstrap/Container"
 import Navigation from "./components/Navigation"
-import Home from "./pages/Home"
+//import Home from "./pages/Home"
 import About from "./pages/About"
 import Resume from "./pages/Resume"
 

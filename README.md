@@ -9,7 +9,7 @@
   - [Installation](#installation)
   - [License](#license)
   - [GitHub Repo](#github-repo)
-  - [Link to deployed page on Heroku](#link-to-deployed-page-on-heroku)
+  - [Link to deployed page](#link-to-deployed-page)
   - [Questions](#questions)
 
 ## User Story
@@ -63,11 +63,11 @@
   ## GitHub Repo
     https://github.com/jleitz27/new-portfolio 
 
-  ## Link to deployed page on Heroku
-  https://quiet-oasis-44993.herokuapp.com/ 
+  ## Link to deployed page 
+  https://jleitz27.github.io/new-portfolio/
 
 <p align="center">
-  <img src="./lib/images/screenshot.png" width="350"
+  <img src="./src/assets/images/screenshot.png" width="350"
 
 </p>
   

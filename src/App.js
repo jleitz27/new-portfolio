@@ -4,10 +4,10 @@ import Navigation from "./components/Navigation"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Resume from "./pages/Resume"
-import User from "./pages/User"
+
 import ContactForm from "./pages/Contact"
 import Projects from "./pages/Projects"
-import Test from "./pages/Test"
+
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import Footer from "./components/Footer"
@@ -21,11 +21,11 @@ function App() {
       <Container style={{ paddingTop: "20px" }}>
         <Router>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/contact" element={<ContactForm />} />
-            <Route path="/projects" element={<Projects /> } />
+            <Route path="/new-portfolio/" element={<About />} />
+            <Route path="/new-portfolio/about" element={<About />} />
+            <Route path="/new-portfolio/resume" element={<Resume />} />
+            <Route path="/new-portfolio/contact" element={<ContactForm />} />
+            <Route path="/new-portfolio/projects" element={<Projects /> } />
   
           </Routes>
         </Router>

@@ -4,11 +4,12 @@ import Row from 'react-bootstrap/Row';
 
 //importing images
 import budget from '../assets/images/budget.png'
-import note from '../assets/images/note.png'
+// import note from '../assets/images/note.png'
 import tipsy from '../assets/images/tipsy.png'
 import blog from '../assets/images/blog.png'
 import weather from '../assets/images/weather.png'
 import beer from '../assets/images/beer.png'
+import bookden from '../assets/images/bookden.png'
 
 const projectData = [
   {
@@ -47,11 +48,11 @@ const projectData = [
       description: "This is a budget tracking application that allows for offline access and functionality.The user can add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. This is an exercise in implementing offline functionality. It uses the browser's indexDB while offline, and MongoDB while online."
   },
   {
-      title: 'Note Taker',
-      repoName: 'note-taker',
-      deployedName: 'https://whispering-refuge-76567.herokuapp.com/',
-      image: note,
-      description: "This is a note taking application that can be used to write and save notes. This application uses an Express.js back end and saves to and retrieves data from a JSON file. Write your note title and text then click the save icon in the upper right to save your note. You can retrieve the note by clicking on the title's text in the left column, or delete it by clicking the trash can icon associated with each note."
+      title: 'Book Den',
+      repoName: 'book-den',
+      deployedName: 'https://glacial-ridge-11514.herokuapp.com/',
+      image: bookden,
+      description: "This is a social media site that also uses the Google Books API search engine. The app was based on the MERN stack model with a React front end, MongoDB database, and Node.js/Express.js server and API. In addition to being able to search for books, if signed in, the user can save the books that catch their eye. Later, the user can delete those books once they've been read."
   },
 ];
 

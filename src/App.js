@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Container from "react-bootstrap/Container"
 import Navigation from "./components/Navigation"
 //import Home from "./pages/Home"
@@ -22,10 +22,10 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<About />} />
-            <Route path="/new-portfolio/about" element={<About />} />
-            <Route path="/new-portfolio/resume" element={<Resume />} />
-            <Route path="/new-portfolio/contact" element={<ContactForm />} />
-            <Route path="/new-portfolio/projects" element={<Projects /> } />
+            <Route path="/about" element={<About />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<ContactForm />} />
+            <Route path="/projects" element={<Projects /> } />
   
           </Routes>
         </Router>

@@ -21,7 +21,7 @@ const AboutPage = (props) => {
       
           <h2 class="education">About Me:</h2>
             <p>
-            Insightful, results driven IT professional with success directing a broad range of corporate IT initiatives while planning, analyzing, and implementing solutions in support of business objectives. Hands-on experience in all stages of system development efforts. Outstanding team building and organizational skills towards supporting the objectives of an organization that rewards reliability, dedication, and solid work ethics with opportunities for professional growth..
+            Insightful, results driven Full Stack Web Developer who specializes in the MERN Stack with success directing a broad range of  initiatives while planning, analyzing, and implementing solutions in support of business objectives. Hands-on experience in all stages of system development efforts. Outstanding team building and organizational skills towards supporting the objectives of an organization that rewards reliability, dedication, and solid work ethics with opportunities for professional growth.
             <br></br>
             <br></br>
 

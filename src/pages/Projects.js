@@ -38,7 +38,7 @@ const projectData = [
       repoName: 'weather-dashboard',
       deployedName: 'https://jleitz27.github.io/weather-dashboard/',
       image: weather,
-      description: 'Provides data on weather-based status boosts for Pokemon Go. Weather data comes from the openWeather API. Pokemon data comes from the Pokemon Go API, and the PokeAPI. We also used Tailwind for styling.'
+      description: 'Provides forcast of location you are searching, while saving your searches in local storage. Weather data comes from the openWeather API. I also used Bootstrap for styling.'
   },
   {
       title: 'Budget Tracker',
